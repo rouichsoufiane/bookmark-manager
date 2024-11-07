@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities{
+    .active{
+        @apply before:absolute before:w-1/2 before:left-1/4 md:before:w-full before:h-1 before:bg-softRed before:bottom-0 md:before:left-0;
+    }
+}
